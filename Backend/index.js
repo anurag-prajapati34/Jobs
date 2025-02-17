@@ -13,6 +13,7 @@ app.use(express.json())
 connectDB();
 
 //routes
+console.log("mongodb uri : ",process.env.MONGO_URI)
 app.use('/api/jobs',jobRoutes);
 
 //PORT
