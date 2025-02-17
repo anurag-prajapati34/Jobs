@@ -1,0 +1,17 @@
+#root {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: #FBFBFF;
+
+  font-family: 'Satoshi', sans-serif;
+  padding-bottom: 1rem;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

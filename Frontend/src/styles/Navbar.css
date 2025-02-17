@@ -1,0 +1,17 @@
+.more-icon{
+    display: none;
+
+}
+.hide{
+    display: block;
+}
+
+@media (max-width:700px) {
+    .more-icon{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    
+}
